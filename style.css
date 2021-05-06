@@ -1,0 +1,78 @@
+body {
+    background: url("hero.jpeg") center/cover no-repeat;
+    display: grid;
+    
+}
+
+.banner {
+    background-color: white;
+    height: 200px;
+    margin-top: 150px;
+    margin-left: 340px;
+    margin-right: 340px;
+    
+}
+h1 {
+    line-height: 2rem;
+    padding-top: 10px;
+}
+.btn-openmodal {
+    margin-top: 70px;
+}
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: grid;
+    visibility: hidden;
+    z-index: -10;
+    place-items: center;
+    transition: var(--transition);
+}
+.open-modal {
+    visibility: visible;
+    z-index: 10;
+}
+/**.close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    background: transparent;
+    border-color: transparent;
+    color: var(--clr-red-dark);
+    cursor: pointer;
+    transition: var(--transition);
+  }
+  .close-btn:hover {
+    color: var(--clr-red-light);
+    transform: scale(1.3);
+  }
+ **/
+ .pop-up {
+     margin-left: 470px;
+     margin-top: 210px;
+     background-color:white;
+     height: 170px;
+     width: 350px;
+     
+     }
+ .close-btn {
+     color: red;
+     font-size: 2rem;
+     margin-left: 200px;
+     padding-left: 90px;
+ }
+ h3 {
+     padding-left: 70px;
+ }
+ @media screen and (min-width: 800px) {
+    .nav-center {
+        max-width: 1170px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+}

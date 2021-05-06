@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal-project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Modal Project</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                </ul>
+                <div class="d-flex">
+                    <a class="text-white" href="https://github.com/madhuri-chitikela/counter-app">
+                        <img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png"
+                            alt="github icon" height=40>
+                        <span class="text-dark">View Code</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <header class="hero text-center">
+            <div class="banner">
+                <h1 class="hero-text">Modal Project</h1>
+                <button class="btn btn-lg btn-openmodal modal-btn btn-outline-info">open modal</button>
+            </div>
+
+        </header>
+        <div class="modal-overlay">
+            <div class="modal-container">
+                <div class="pop-up">
+                    <button class="btn close-btn"><i class="bi bi-x"></i></button>
+                    <h3>modal-content</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+
+<script src="app.js"></script>
+
+</html>
