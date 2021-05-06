@@ -4,7 +4,8 @@ description: to be written
 
 [View Demo here](https://madhuri-chitikela.github.io/modal-project/)
 
-<img src="" height="500" />
+<img src="docs\modal-preview.png" height="500" />
+<img src="docs\modal-preview-1.png" height="500" />
 
 ## Tech stack
 

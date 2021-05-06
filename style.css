@@ -7,10 +7,18 @@ body {
 .banner {
     background-color: #FFF;
     height: 200px;
-
     margin-top: 150px;
-    margin-left: 308px;
-    margin-right: 350px;
+}
+
+@media screen and (max-width: 400px) {
+    .banner {
+        width: 300px;
+    }
+}
+@media screen and (min-width: 800px) {
+    .banner {
+        width: 500px;
+    }
 }
 h1 {
     line-height: 2rem;
