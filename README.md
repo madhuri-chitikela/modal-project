@@ -1,4 +1,4 @@
-# Counter application
+# Modal Project
 
 description: to be written
 
