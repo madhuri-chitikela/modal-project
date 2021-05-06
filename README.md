@@ -2,7 +2,7 @@
 
 description: to be written
 
-[View Demo here](https://github.com/madhuri-chitikela/modal-project)
+[View Demo here](https://madhuri-chitikela.github.io/modal-project/)
 
 <img src="" height="500" />
 
